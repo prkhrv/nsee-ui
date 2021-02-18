@@ -1,0 +1,45 @@
+
+.tc-section{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #f5f5f5;
+}
+.faq{
+    width: 100%;
+    padding: 100px 0px;
+    position: relative;
+}
+.award-section{
+    width: 100%;
+    height: auto;
+    padding: 33px 0px;
+    background-color: rgb(245, 245, 245)
+}
+.apply-section{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #fcfcfc ;
+    text-align: justify;
+}
+.Syllabus{
+    width: 100%;
+    background-color: rgb(233, 93, 58);
+    padding: 50px 0px;
+}
+.f-big{
+    font-size: 160px;
+    color: rgb(255, 201, 22);
+    text-align: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .apply-section,.faq,.tc-section{
+        padding: 20px 0px;
+    } 
+    .f-big{
+        font-size: 100px;
+    }
+    .Syllabus{
+        padding: 20px 0px;
+    }
+}
